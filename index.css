@@ -1,0 +1,122 @@
+body {
+	font-family: 'Bebas Neue', sans-serif;
+	color: #fff;
+	background-image: linear-gradient(90deg, #1C1C1C, #213)
+}
+
+ul {
+	padding: 16px;
+	justify-content: space-between;
+	display: flex;
+	list-style-type: none;
+	align-items: center
+}
+
+a {
+	color: #fff;
+	text-decoration: none
+}
+
+img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	border: 5px solid #213
+}
+
+.center {
+	text-align: center
+}
+
+.container {
+	padding: 0 50px
+}
+
+h3 {
+	color: grey
+}
+
+.social-buttons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: gray;
+	box-shadow: 0 0 15px #00000027;
+	padding: 10px 5px;
+	border-radius: 5em;
+	width: 20%;
+	margin: 0 auto
+}
+
+.social-button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin: 0 10px;
+	background-color: #fff;
+	box-shadow: 0 0 4px #00000027;
+	transition: .3s
+}
+
+.social-button:hover {
+	background-color: #f2f2f2;
+	box-shadow: 2px 2px 6px 3px #00000027
+}
+
+.social-buttons svg {
+	transition: .3s;
+	height: 20px
+}
+
+.facebook {
+	background-color: #3b5998
+}
+
+.facebook svg {
+	fill: #f2f2f2
+}
+
+.facebook:hover svg {
+	fill: #3b5998
+}
+
+.github {
+	background-color: #333
+}
+
+.github svg {
+	width: 25px;
+	height: 25px;
+	fill: #f2f2f2
+}
+
+.github:hover svg {
+	fill: #333
+}
+
+.linkedin {
+	background-color: #0077b5
+}
+
+.linkedin svg {
+	fill: #f2f2f2
+}
+
+.linkedin:hover svg {
+	fill: #0077b5
+}
+
+.instagram {
+	background-color: #c13584
+}
+
+.instagram svg {
+	fill: #f2f2f2
+}
+
+.instagram:hover svg {
+	fill: #c13584
+}
